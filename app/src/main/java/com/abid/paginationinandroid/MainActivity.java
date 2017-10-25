@@ -2,6 +2,7 @@ package com.abid.paginationinandroid;
 
 import android.content.Context;
 import android.os.Handler;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -26,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         rvItems.setLayoutManager(linearLayoutManager);
         adapter = new RecyclerViewAdapter();
         rvItems.setAdapter(adapter);
+        RecyclerView.ItemDecoration dividerItemDecoration = new DividerItemDecorator(ContextCompat.getDrawable(context,R.drawable.item_decor));
+        //rvItems.addItemDecoration(dividerItemDecoration);
         // Retain an instance so that you can call `resetState()` for fresh searches
         scrollListener = new EndlessScrollListener(linearLayoutManager) {
             @Override

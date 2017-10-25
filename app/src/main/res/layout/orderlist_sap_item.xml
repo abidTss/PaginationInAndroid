@@ -2,12 +2,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="200dp"
+    android:background="@android:color/white"
     android:orientation="vertical">
 
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp" />
-
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="jddjnd djjfjv jvnvjvn dvndjvnjd jssj vfvfj cdjcndjvn jnvdjvnd djndj vdjvdjvn dncdjvnd dvjndjnv jdnvdjeuu hs hv vjj hhf fvvhvbhdbndj"
+    />
     <TextView
         android:id="@+id/tv"
         android:layout_width="match_parent"
@@ -25,6 +30,6 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="2dp"
+        android:layout_height="0dp"
         android:background="@android:color/black" />
 </LinearLayout>

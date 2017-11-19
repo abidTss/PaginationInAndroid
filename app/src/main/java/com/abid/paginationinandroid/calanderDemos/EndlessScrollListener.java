@@ -1,4 +1,4 @@
-package com.abid.paginationinandroid;
+package com.abid.paginationinandroid.calanderDemos;
 
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;

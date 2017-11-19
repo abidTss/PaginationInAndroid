@@ -1,4 +1,4 @@
-package com.abid.paginationinandroid;
+package com.abid.paginationinandroid.calanderDemos;
 
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;

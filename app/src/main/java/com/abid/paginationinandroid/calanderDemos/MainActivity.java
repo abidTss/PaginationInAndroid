@@ -1,4 +1,4 @@
-package com.abid.paginationinandroid;
+package com.abid.paginationinandroid.calanderDemos;
 
 import android.content.Context;
 import android.os.Handler;
@@ -11,6 +11,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.abid.paginationinandroid.R;
 
 public class MainActivity extends AppCompatActivity {
     private EndlessScrollListener scrollListener;

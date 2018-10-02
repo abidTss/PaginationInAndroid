@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     android:background="@android:color/holo_blue_light"
     tools:context="com.abid.paginationinandroid.calanderDemos.MainActivity">
@@ -16,4 +17,6 @@
         tools:layout_editor_absoluteY="8dp"
         tools:layout_editor_absoluteX="8dp">
     </android.support.v7.widget.RecyclerView>
+
+
 </LinearLayout>
